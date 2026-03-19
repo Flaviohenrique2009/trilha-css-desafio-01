@@ -19,6 +19,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--primary-font);
+    color: var(--white-color);
+}
+body{
+  background-color: var(--black-color);  
+}
+.banner {
+    background-image:linear-gradient(#00000099,#31A8DD33 ,#00000099), url(../images/banner.png);
+ height: 600px;
+ background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #33A8DB;
+}
+.banner-content{
+    text-align: center;
+    margin-top: 60px;
+}
+.logo{
+    background:var(--logo-bg-color);
+    height: 270px;
+    width: 270px;
+    margin:0 auto;
+    border-radius: 100%;
+    padding: 16px;
 }
 
  
