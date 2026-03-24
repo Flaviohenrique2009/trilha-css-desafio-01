@@ -38,7 +38,10 @@ body {
 
 .banner-content {
     text-align: center;
+    margin: 0 auto ;
     margin-top: 60px;
+    width: 513px;
+    
 }
 
 .logo {
@@ -51,14 +54,42 @@ body {
 }
 
 h1 {
-    color: #33A8DB;
-    font: weight 900px;
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: black;
+    font-size: 40px;
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.banner-content p{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.banner-content button{
+    width: 326px;
+    height: 60px;
+    border-width: 2px;
+    color: #31A8DD;
+    text-transform: uppercase;
+    font-size: 16px;
+    background: transparent;
+    font-weight: 900;
+    letter-spacing: 21%;
+    border-image: var(--button-gradient);
+    border-image-slice: 10;
+
 }
 
 h2 {
     color: #33A8DB;
     text-align: center;
 }
+
 
 span {
     color: #33A8DB;
@@ -68,7 +99,9 @@ img {
     display: block;
     margin: auto;
 }
-button{
-    color: #31A8DD;;
+
+button {
+    
+    ;
     width: 200px;
 }
