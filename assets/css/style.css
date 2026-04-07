@@ -91,6 +91,11 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 792px;
+    height: 325px;
+    margin: 69px auto 100px;
+    gap: 24px;
+
 }
 
 #course-content p {
@@ -108,28 +113,109 @@ h2 {
 
 .modules-list span {
     color: #33A8DB;
+    /* line-height:3; */
+
+
+
+
+
 }
 
 .modules-list .module {
     text-align: center;
-    width: 231px;
     height: 51px;
     background-color: var(--modulo-bg-color);
     box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.75) inset;
     -webkit-box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.75) inset;
     -moz-box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.75) inset;
-    border-radius: 300px;
-    
+    border-radius: 40px;
+    padding: 16px 60px;
+    border: 1px solid var(--primary-color);
+    margin: 0px auto 24px;
+
+}
+
+
+
+#transform-world {
+    background-image: url(../images/woman-code.png);
+    height: 530px;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    padding: 180px;
+}
+
+#transform-world p {
+    height: 144px;
+    width: 244px;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: lowercase;
+    text-shadow: 3px 2px 0px rgba(51, 168, 219, 0.6);
+
+}
+
+#professional-challenges {
+    text-align: center;
+}
+
+#professional-challenges h2 {
+    height: 76px;
+    width: 752px;
+    font-size: 32px;
+    margin: 86px auto 70px;
+
+
 
 
 
 }
+
 
 
 
 img {
     display: block;
     margin: auto;
+
+
+}
+
+#professional-challenges p {
+
+    width: 792px;
+    height: 76px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 46px auto 80px;
+    
+
+
+
+}
+footer p{
+    margin-top: 3px;
+    
+}
+
+footer {
+    background-image: linear-gradient(#00000099,#31A8DD33);
+    text-align: center;
+    border-top:1px solid var(--primary-color);
+    padding: 69px;
+
+
+}
+
+footer a {
+    color: var(--primary-color);
+     font-weight: 700;
+     text-decoration: none;
+     
+     
+
 }
 
 button {
